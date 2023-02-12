@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="contact_info">
+        <form action="" method="post">
+            <H1>Contact Form</H1>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your Name" style="width: 300px;"><br>
+
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" placeholder="Enter your username" style="width: 300px;"><br>
+
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Enter your password" style="width: 300px;"><br>
+
+            <label for="re-type password">Re-type Password:</label>
+            <input type="password" name="password" id="password" placeholder="Enter your password" style="width: 300px;"><br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" name="sex" id="male">Male
+            <input type="radio" name="sex" id="female">Female<br>
+
+
+            <label for="techie">Techie Skills:</label>
+            <input type="checkbox" name="language" id="html" >HTML
+            <input type="checkbox" name="language" id="css" >CSS
+            <input type="checkbox" name="language" id="javascript" >JavaScript<br>
+
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" style="width: 300px;"><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your Email address" style="width: 300px;"><br>
+
+            <label for="college">College:</label>
+            <select name="college" id="college" >
+                <option value="" disabled selected hidden>Select a College</option>
+                <option value="">KNUST</option>
+                <option value="">LEGON</option>
+                <option value="">UCC</option>
+            </select><br>
+
+            <input type="submit" value="Submit">  
+        </form>
+    </div>
+    </body>
+</html>

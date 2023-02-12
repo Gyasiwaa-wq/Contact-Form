@@ -1,0 +1,47 @@
+*{
+    font-family: 'Manrope', sans-serif;;
+}
+
+.contact_info{
+   justify-content: center;
+    display: flex;
+}
+
+
+input{
+    margin: 10px;
+    zoom: 1;
+    vertical-align: middle;
+    margin-left: 20px;
+    padding: 9px;
+
+}
+
+label{
+    font-weight: bold;
+    display:inline-flex;
+    zoom: 1;
+    padding-top: 6px;
+    text-align: right;
+    width: 150px;
+    font-weight: bold;
+}
+
+.contact_info input[type="submit"]{
+    margin: 10px;
+    margin-left: 175px;
+    background-color: #2075d8;
+    border: none;
+    color: white;
+    width: 320px;
+    padding: 9;
+}
+
+select{
+    margin: 10px;   
+    margin-left: 20px;
+    padding: 8px;
+    width: 320px;
+}
+
+
